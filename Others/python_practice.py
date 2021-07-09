@@ -14,7 +14,7 @@ counties_dict = {"Arapahoe": 422829, "Denver": 463353, "Jefferson": 432438}
 
 # Print with thousands separator
 for county, voters in counties_dict.items():
-  print(f'{county} county has {voters:,} registered voters')
+  print(f'1. {county} county has {voters:,} registered voters')
 
 #Iterate Through a Dictionary
   # Get the Keys of a Dictionary
@@ -47,11 +47,6 @@ voting_data = [{"county":"Arapahoe", "registered_voters": 422829},
 #for county_dict in voting_data:
     #print(county_dict)
 
-for countty in voting_data:
-  for vots in countty.values():
-    print (countty['county'], vots['registered_voters'])
-    #print [li["id"] for li in list]
-
 # The same but using range()
 #for county in range(len(voting_data)):
     #print(voting_data[county]['county'])
@@ -62,10 +57,14 @@ for countty in voting_data:
         #print(value)
 
 # Print with thousands separator
-#for county, voters in counties_dict.items():
-  #print(f'{oting_data[county]['county']} county has {oting_data[county]['county']:,} registered voters')
 
-#for county in range(len(voting_data)):
+for county in range(len(voting_data)):
   #print(voting_data[county]['registered_voters'])
   
-  #print(voting_data[county]['county'] + " county has " + str(voting_data[county]['registered_voters']) + " registered voters.") #string is imp to apply ,thous...separator)
+  print(f'2. {voting_data[county]["county"]} county has {voting_data[county]["registered_voters"]:,} registered voters') #string is imp to apply ,thous...separator)
+
+#Print the values of the "roads" key from the nested dictionary.
+
+nested_dict = {"Dakar":{"weather":"sunny", "roads":"dry"}}
+ans_1 = nested_dict["Dakar"]["roads"]
+print("3. " + ans_1)
