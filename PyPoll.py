@@ -4,3 +4,24 @@
 #3. Total number of votes each candidate received
 #4. Percentage of votes each candidate won
 #5. The winner of the election based on popular vote
+
+import csv
+import os
+
+# Assign a variable for the file to load and the path.
+
+  # direct path to the file
+# file_to_load = "Resources/election_results.csv"
+
+  # indirect path
+file_to_load = os.path.join("Resources", "election_results.csv")
+
+# Open the election results and read the file.
+  #election_data = open(file_to_load, 'r')
+with open(file_to_load) as election_data:
+
+  # To do: perform analysis.
+  print(election_data)
+
+# Close the file.
+#election_data.close() (changed with)

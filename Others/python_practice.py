@@ -68,3 +68,29 @@ for county in range(len(voting_data)):
 nested_dict = {"Dakar":{"weather":"sunny", "roads":"dry"}}
 ans_1 = nested_dict["Dakar"]["roads"]
 print("3. " + ans_1)
+
+#while loop, if statement and str() function; iterate through the list and if there is a 100, print it with its index number. i.e.: "There is a 100 at index no: 12"
+
+lst=[10, 99, 98, 85, 45, 59, 65, 66, 76, 12, 35, 13, 100, 80, 95]
+#Besides being the counter i is being used as the index throughout the list and 
+# lst[i]  is the value of elements in the list at index: i
+
+q = 0
+while q < len(lst):
+    if lst[q] == 100:
+        print("There is a 100 at index no: " + str(q))
+    q = q+1
+
+#break statement in the for loop so that it prints from 0 to 7 only (including 7).
+for s in range(100):
+    print(s)
+    if s==7:
+        break 
+
+#continue statement to the loop so that it skips when iterator equals "sun
+weather=["snow", "rain", "sun", "clouds"]
+
+for i in weather:
+    if i == "sun":
+        continue
+    print(i)
