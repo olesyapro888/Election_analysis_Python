@@ -25,3 +25,7 @@ with open(file_to_load) as election_data:
 
 # Close the file.
 #election_data.close() (changed with)
+# Create a filename variable to a direct or indirect path to the file.
+file_to_save = os.path.join("Analysis", "election_analysis.txt")
+# Using the open() function with the "w" mode we will write data to the file.
+open(file_to_save, "w")
