@@ -35,7 +35,7 @@ candidate_votes = {}
 # Using the with statement open the file as a text file.
 with open(file_to_save, "w") as txt_file:
 # Write some data to the file.
-  txt_file.write("Counties in the Election\n________________________\nArapahoe\nDenver\nJefferson")
+  txt_file.write("Counties in the Election\n------------------------\nArapahoe\nDenver\nJefferson")
 
 # Close the file
 #outfile.close()
@@ -66,10 +66,23 @@ with open(file_to_load) as election_data:
     if candidate_name not in candidate_options:
       # Add it to the list of candidates.
       candidate_options.append(candidate_name)
-    # Begin tracking that candidate's vote count Setting each candidate's vote count to zero.
+    # Begin tracking that candidate's vote count  Setting each candidate's vote count to zero.
       candidate_votes[candidate_name] = 0
+    # Add a vote to that candidate's count
+    candidate_votes[candidate_name] +=1 
+  # Determine the percentage of votes for each candidate by looping through the counts.
+    # Iterate through the candidate list.
+for candidate_name in candidate_votes:
+   #Retrieve vote count of a candidate.
+  votes = candidate_votes[candidate_name]
+    # Calculate the percentage of votes.
+  vote_percentage = float(votes) / float(total_votes) * 100
+  print(f"{candidate_name}: received {vote_percentage:.3}% of the vote.")  
   
 # 3. Print the total votes.
 #print(total_votes)
 # Print the candidate list.
-print(candidate_options)
+#print(candidate_options)
+# Print the candidate vote dictionary.
+#print(candidate_votes)
+    
