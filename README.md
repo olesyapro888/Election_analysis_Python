@@ -35,7 +35,7 @@ The election analysis performs following:
 How many votes were cast in this congressional election?
 Provide a breakdown of the number of votes and the percentage of total votes for each county in the precinct.
 
-There were 369,711 votes cast in the election.
+There were 369,711 votes cast in the 'Analysis' folder.
 
 • The counties were:
   - Denver
