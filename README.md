@@ -30,10 +30,10 @@ The audit was created using next resources:
   - Software: Python 3.9.6, Visual Studio Code 1.58.0
 ## `Election-Audit Results`
 
-Full audit results van be found in the [Analysis](./Analysis/election_analysis.txt)folder.
+Full audit results van be found in the [Analysis](./Analysis/election_analysis.txt) folder.
 
 The election analysis shows 369,711 total votes.
-  ### - Candidate Results.
+### Candidate Results
 
 The Candidates were:
   - Charles Casper Stockham;
@@ -44,7 +44,7 @@ The Candidate results were:
   - Charles Casper Stockham received 23% of the votes and 85,213 votes;
   - Diana DeGette received 73.8% of the votes and 272,892 votes;
   - Raymon Anthony Doane received 3.1% of the and with 11,606 votes.
-  ### - County votes results.
+### Counties votes results
 
 The Counties were:
   - Denver;
@@ -56,27 +56,21 @@ The Counties votes results were:
   - Denver County received 82.8% of the votes with 306,055 votes;
   - Arapahoe County received 6.7% of the votes with 24,801 votes.
 
-  ### - The winner of the election:
+### The winner of the election and county with the largest voter turnout
 
-•	The winner and the largest voter turnout of the election:
+The winner of the election:
   - Diana DeGette, who received 73.8% of the votes and 272,892 number of votes;
 
-•	The county with the largest voter turnout:
+The county with the largest voter turnout:
   - Denver county, who received 82.8% of the votes with 306,055 votes.
 ## `Election-Audit Summary`
-In a summary statement, provide a business proposal to the election commission on how this script can be used—with some modifications—for any election. 
-Give at least two examples of how this script can be modified to be used for other elections.
 
- This script could be used for any election such as: who is candidate winner for each county. 
+This script could be used for any election with some easy script modification and additional data.
 
-Firstly, to use the code for any election with some easy script modification and additional data. 
-
-For instance, with some added data it can be used to get result of budget, age, sex of candidates and so on. To analyse "budget" modification is place of counties by changing the index and renaming related variable:
+For instance, with added data it can be used to get result of budget, age, sex of candidates and so on. To analyse "budget" modification is place of counties by changing the index and renaming related variable. The change should be here:
 
 screen of code1
 
-Additionally, the script can be modified to select winner candidates in each county. For instance, 
-
-calculate largest candidate for each country
+Additionally, the script can be modified to select winner candidates in each county. A pseudocode of modification can be following: loop through counties and candidates with condition such as: if the most popular candidate in a county  then add to a new dictionary of county with candidate. Then, print results or print a winner as the most popular candidate in county by comparing elements of dictionary. The code should be modificated following:
 
 screen of code2
