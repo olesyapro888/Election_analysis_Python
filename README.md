@@ -5,7 +5,7 @@
 - [Resources](#resources)
 - [Election-Audit Results](#Election-Audit-Results)
   - [Candidate Results](#candidate-results)
-  - [County vote results](#county-vote-results)
+  - [County vote Results](#county-vote-results)
   - [The Election winner and the largest county turnout](#the-election-winner-and)
 - [Election-Audit Summary](#Election-Audit-Summary)
 
@@ -29,7 +29,7 @@ The audit was created using next resources:
   - Software: Python 3.9.6, Visual Studio Code 1.58.0
 ## `Election-Audit Results`
 
-Full audit results van be found in the [Analysis](./Analysis/election_analysis.txt) folder.
+Full audit results can be found in the [Analysis](./Analysis/election_analysis.txt) folder.
 
 The election analysis shows 369,711 total votes.
 ### `Candidate Results`
