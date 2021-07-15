@@ -68,12 +68,12 @@ This script could be used for any election with some easy script modification an
 
 For instance, with added data it can be used to get result of budget, age, sex of candidates and so on. To analyse "budget" modification is place of counties by changing the index and renaming related variable. The change should be here:
 
-![image](https://user-images.githubusercontent.com/68247343/125821439-558aca90-91e1-47a5-88e7-12d609639627.png)
+![Other]("screen_code1")
 
 Additionally, the script can be modified to select winner candidates in each county. A pseudocode of modification can be following: loop through counties and candidates with condition such as: if the most popular candidate in a county  then add to a new dictionary of county with candidate. Then, print results or print a winner as the most popular candidate in county by comparing elements of dictionary. The code should be modified in part of loop with condition in the attached screen:
 
-![image](https://user-images.githubusercontent.com/68247343/125821604-e8e2dedb-bf53-480f-b161-a0ccd53e035d.png)
+![Other]("screen_code2")
 
 and here modified or aded:
 
-![image](https://user-images.githubusercontent.com/68247343/125821834-472ef2a6-05c2-41df-961f-ee80aff77b35.png)
+![Other]("screen_code3")
