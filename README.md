@@ -1,5 +1,6 @@
-# ELECTION_ANALYSIS
-## `-Indice-`
+# ELECTION_ANALYSIS. Project 3 of the University of Toronto.
+
+## `-Contents-`
 
 - [Overview of Election Audit](#Overview-of-Election-Audit)
 - [Resources](#resources)
@@ -11,22 +12,24 @@
 
 ## `Overview of Election Audit`
 
-A Colorado Board of Elections employee has given me the folLowing tasks to complete the election audit of a recent local congressional election.
+The purpose of the Project is to to complete the audit using Python and to print the results to the Command Line also, to save it to a Text File.
 
-The election commission has requested following data to complete the audit:
+The requirenebts to complete the audit are:
 
-1. Calculate the total number of votes cast
+1. Calculate the total number of votes cast.
 2. Get a complete list of candidates who received votes.
 3. Calculate the total number of votes each candidate received.
 4. Calculate the percentage of votes each candidate won.
 5. Determine the winner of the election based on popular vote.
-6. The voter turnout for each county
-7. The percentage of votes from each county out of the total count
-8. The county with the highest turnout
+6. The voter turnout for each county.
+7. The percentage of votes from each county out of the total count.
+8. The county with the highest turnout.
+
 ## `Resources`
-The audit was created using next resources:
+The project was created using next resources:
   - Data Source: election_results.csv which be found in the [Resources](./Resources/election_results.csv)
   - Software: Python 3.9.6, Visual Studio Code 1.58.0
+ 
 ## `Election-Audit Results`
 
 Full audit results can be found in the [Analysis](./Analysis/election_analysis.txt) folder.
