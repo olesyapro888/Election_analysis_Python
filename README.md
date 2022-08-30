@@ -1,4 +1,4 @@
-# ELECTION_ANALYSIS. Project 3 of the University of Toronto.
+# THECHNICAL ELECTION ANALYSIS BY USING PYTHON
 
 ## `-Contents-`
 
